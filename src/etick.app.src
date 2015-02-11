@@ -1,0 +1,12 @@
+{application, etick,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { etick_app, []}},
+  {env, []}
+ ]}.
